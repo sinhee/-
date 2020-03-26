@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <style>
+      /* Main Form */
+      .main-form {
+        display: inline-box;
+        background-color: white;
+        margin-left: 10%;
+        margin-top: 5%;
+        padding: 32px 32px 24px 32px;
+        width: 600px;
+        height: 800px;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+        font-size: 37px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        font-family: "맑은 고딕";
+        font-weight: 900;
+      }
+      .main-page {
+        height: 100%;
+        background-image: url("media/newyork.jpg");
+        background-repeat: no repeat;
+        background-size: cover;
+      }
+
+      .main-navi {
+        border-radius: 20px;
+        padding: 30px;
+        padding-top: 40px;
+        height: 110px;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .main-navi.item > a {
+        font-size: 14px;
+        font-weight: 800;
+        color: white;
+        text-decoration: none;
+      }
+
+      .main-navi.item {
+        margin-left: 30px;
+      }
+
+      div.box {
+        background: white;
+        border-style:groove;  
+      }
+
+      .list {overflow : hidden}
+
+
+    </style>
+  </head>
+
+  <body>
+    <!-- 첫 페이지 시작 -->
+    <header id="main-page" class="main-page">
+      <!-- 네비게이션 메뉴 시작 -->
+      <nav class="main-navi">
+        <div class="logo">
+          <img src="media/logo.png" alt="" weight="50px" height="50px" />
+        </div>
+        <div class="item">
+          <a href="#"> 한국어(KR) </a></div>
+        <div class="item">
+          <a href="#"> ￦KRW </a></div>
+        <div class="item">
+          <a href="#"> 숙소 호스팅 </a></div>
+        <div class="item">
+          <a href="#"> 체험 호스팅 </a></div>
+        <div class="item">
+          <a href="#"> 도움말 </a></div>
+        </div>
+        <div class="item">
+          <a href="#"> 회원 가입 </a>
+        </div>
+        <div class="item">
+          <a href="#"> 로그인 </a>
+        </div>
+      </nav>
+      <!-- 네비게이션 메뉴 끝 -->
+
+      <div class="main-form">
+        <div> 특색 있는 숙소와 즐길 거리를 예약하세요.</div>
+        <div> 목적지
+        <p class = "list"></p>
+        <div> 체크인 </div>
+        <div> 체크아웃 </div>
+        <div> 인원 </div>
+      </div>
+      <div class="bottom-text">
+        <div> 오리건에 있는 300개의 특별한 숙소 </div>
+      </div>
+    </header>
+    <!-- 첫 페이지 끝 -->
+  </body>
+</html>

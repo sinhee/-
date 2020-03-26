@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)http://127.0.0.1:7070/html-CSS/%EA%B3%BC%EC%A0%9C/middle.html -->
+<html lang="ko">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sub Page</title>
+    <style>
+      .sub-page {
+        margin-top: 30px;
+        padding: 0 10%;
+        /* 가로축으로 패딩을 10% 주고 양쪽 옆 공간을 띄운다 */
+      }
+      .sub-page .text-1 {
+        font-size: 24px;
+        font-weight: 800;
+      }
+      .sub-page .text-2 {
+        font-size: 20px;
+        font-weight: 800;
+      }
+      sub-page .text-3 {
+        font-size: 24px;
+        font-weight: 900;
+      }
+      sub-page .text-4 {
+        font-size: 12px;
+      }
+      .sub-page .text-5 {
+        font-size: 16px;
+      }
+      .look-around > .wrapper {
+        display: flex;
+        border-radius: 30px;
+      }
+      .look-around > .wrapper > div {
+        display: flex;
+        position: relative;
+        height: auto;
+        width: auto;
+        margin: 20px;
+        border-radius: skyblue;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px;
+      }
+      .look-around > .wrapper > div > .text {
+        width: auto;
+        display: auto;
+        flex-direction: auto;
+        justify-content: auto;
+        padding-left: auto;
+      }
+
+      #button {
+        position: relative;
+        border-radius: 30px;
+        right: 600px;
+        bottom: 300px;
+        width: 250px;
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 40px 0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 첫 페이지 끝 -->
+    <!-- 서브 페이지 시작 -->
+    <main class="sub-page">
+      <!-- 에어비앤비 둘러보기 시작 -->
+      <section class="look-around">
+        <div class="text-1">에어비앤비 둘러보기</div>
+        <br />
+        <div class="wrapper1" style="display: flex;">
+          <div class="home" style="display: flex;">
+            <div class="picture">
+              <img src="./middle_files/bedroom.jpg" height="200px" alter="" />
+            </div>
+            <div class="text">
+              <div class="text-3" style="display: flex; align-items: center;">
+                숙소
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="cook" style="display: flex;">
+            <div class="picture">
+              <img src="./middle_files/cooking.jpg" height="200px" alter="" />
+            </div>
+            <div class="text" style="display: flex; align-items: center;">
+              <div class="text-3">체험</div>
+            </div>
+          </div>
+
+          <div class="walk" style="display: flex;">
+            <div class="picture">
+              <img src="./middle_files/walking.jpg" height="200px" alter="" />
+            </div>
+            <div class="text" style="display: flex; align-items: center;">
+              <div class="text-3">어드벤처</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 에어비앤비 둘러보기 끝 -->
+      <!-- 에어비앤비 Luxe를 만나 시작 -->
+      <br />
+      <hr />
+      <br />
+      <section class="plus home">
+        <div class="text-1">에어비앤비 플러스 숙소</div>
+        <div class="wrapper4"></div>
+        <br />
+        <div>퀄리티와 인테리어 디자인이 검증된 숙소.</div>
+        <br />
+        <div calss="room"></div>
+        <div calss="picture" style="align-items: center;"></div>
+        <img src="media/room.jpg" alter="" width="1000px" />
+        <div id="button">
+          <h2>
+            숙소 둘러보기 >
+          </h2>
+        </div>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <section class="adventure">
+        <br />
+        <div class="text-1">에어비앤비 어드벤처를 소개합니다.</div>
+        <br />
+        <div class="wrapper5"></div>
+        <div>
+          현지 전문가가 진행하는 2일 이상의 여행 - 액티비티, 식사, 숙박 포함.
+        </div>
+      </section>
+      <!-- 에어비앤비 Luxe를 만나 끝 -->
+      <!-- 어떤 섹션 시작 -->
+      <!-- 어떤 섹션 끝 -->
+    </main>
+    <!-- 서브 페이지 끝 -->
+  </body>
+</html>
